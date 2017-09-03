@@ -10,7 +10,10 @@ This batch script will pack your project, including your assembly information, a
 
 - Nuget-Push.bat
 
-This batch script will push your nuget package to nuget.org ... Be sure to edit the endpoint if you use a different nuget server
+This batch script will push your nuget package to nuget.org ... 
+
+    - Make sure to edit the endpoint if you use a different nuget server
+    - Make sure to have the `Nuget_Api_Key` environment variable saved on your computer. See [guide for windows](http://helpdeskgeek.com/how-to/create-custom-environment-variables-in-windows-7/).
 
 ## How to use
 
