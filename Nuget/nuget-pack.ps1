@@ -13,7 +13,6 @@ if ([string]::IsNullOrEmpty($projectName) -or [string]::IsNullOrEmpty($assemblyN
     $file = @(gci ../*.csproj)[0] #get the *.csproj file you intend to build from the parent directory
 
     if ($file) {
-        Write-Output $file
         
         $projectName = "$($file.Directory)/$($file.Name)" #get the csproj full path
     
