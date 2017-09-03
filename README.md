@@ -19,4 +19,5 @@ This batch script will push your nuget package to nuget.org ...
 
 - Clone the Repository
 - Copy the `Nuget` folder into your `.csproj` project folder
+- If you have a Nuget API Key, place it on your environment variables as `Nuget_Api_Key`
 - Start using the scripts
